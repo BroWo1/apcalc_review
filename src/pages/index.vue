@@ -17,7 +17,6 @@
                 max-width="500px"
                 variant="solo-filled"
                 :rounded="true"
-                :flat="true"
                 label="Search topics..."
                 prepend-inner-icon="mdi-magnify"
               />

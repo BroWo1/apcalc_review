@@ -48,7 +48,7 @@
             <!-- Derivatives Section -->
             <section class="mb-8">
               <h2 class="text-h5 font-weight-medium mb-3 text-grey-darken-3">Derivatives</h2>
-              <v-list density="compact">
+              <v-list density="compact" lines="two">
                 <v-list-item>
                   <v-list-item-title class="font-weight-medium">Definition of the Derivative</v-list-item-title>
                   <v-list-item-subtitle>$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$ or $f'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x-a}$</v-list-item-subtitle>
@@ -108,7 +108,7 @@
             <v-divider class="my-6"></v-divider>
 
             <!-- Integrals Section -->
-            <section class="mb-8">
+            <section class="mb-8" lines="two">
               <h2 class="text-h5 font-weight-medium mb-3 text-grey-darken-3">Integrals</h2>
               <v-list density="compact">
                 <v-list-item>
